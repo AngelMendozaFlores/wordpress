@@ -1,0 +1,165 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/bg_vignetr01.png), url(../img/bg_vigneti01.png), url(../img/bg_vignetr02.png), url(../img/bg.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+    background-position: right bottom 300px, left bottom 30px, right bottom, center center;
+    padding: 20px;
+    color: #5d3757;
+}
+
+.col{
+    float: left;
+}
+
+.branding{
+    width: 175px;
+    height: 92px;
+    background: url(../img/logo_tiendaschata.png);
+    text-indent: -9999em;
+}
+
+.menu-top{
+    line-height: 92px;
+}
+
+.menu-top .form-group{
+    margin: 28px 0;
+}
+
+.menu-top .cart{
+    background: url(../img/cart.png) no-repeat center center;
+    width: 50px;
+    height: 38px;
+    margin: 28px 10px 28px 0px;
+}
+
+.menu-top .cart .badge{
+    background: #FF0011;
+    position: absolute;
+    right: -10px;
+}
+
+.menu-top .facebook{
+    width: 34px;
+    background: url(../img/icon_facebook.png) center center no-repeat;
+    text-indent: -999em;
+    margin: 0 10px;
+}
+
+.menu-top .instagram{
+    width: 32px;
+    background: url(../img/icon_instagram.png) center center no-repeat;
+    text-indent: -999em;
+    margin: 0 10px;
+}
+
+.menu-midde ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.menu-midde ul li{
+    float: left;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 15px;
+    padding-right: 40px;
+    margin: 10px 4px;
+    border: 1px solid #5d3757;
+    border-radius: 2px;
+    color: #5d3757;
+    background: url(../img/icon_tamales.png) no-repeat right 5px center;
+}
+
+.menu-midde ul li.comidamx{
+    background-image: url(../img/icon_comidamexicana.png);
+}
+
+.menu-midde ul li.quesos{
+    background-image: url(../img/icon_queso.png);
+    padding-right: 60px;
+}
+
+.menu-midde ul li.carnesf{
+    background-image: url(../img/icon_carnesfrias.png);
+    padding-right: 70px;
+}
+
+.menu-midde ul li.abarrotes{
+    background-image: url(../img/icon_abarrotes.png);
+    padding-right: 80px;
+}
+
+.menu-midde ul li.organico{
+    background-image: url(../img/icon_organico.png);
+}
+
+.mailing button{
+    margin: 0 10px;
+}
+
+.mailing .form-control{
+    width: 80%;
+    position: relative;
+}
+
+.menu-bottom ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bottom ul li{
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+    text-transform: uppercase;
+    color: #5d3757;
+}
+
+.footer{
+    left: 0;
+    width: 100vw;
+}
+
+.footer .row{
+	margin: 0px;
+	width: 100%;
+}
+
+h1{
+	text-align: center;
+	border-radius: 2px;
+    text-transform: uppercase;
+}
+
+.content{
+	margin-bottom: 50px;
+}
+
+body.contacto{
+	background-image: url(../img/vignet_contacto.png), url(../img/bg.png);
+	background-position: left bottom, center center;
+	background-repeat: no-repeat, repeat;
+}
+
+body.franquicias{
+	background-image: url(../img/vignet_franquicias.png), url(../img/bg.png);
+	background-position: right bottom 100px, center center;
+	background-repeat: no-repeat, repeat;
+}
+
+@media (max-width: 970px) {
+	body.contacto, body.franquicias{
+		background-image: url(../img/bg.png);
+		background-position: center center;
+		background-repeat: repeat;
+	}
+}
+
+#map{
+	margin-top: 50px;
+	height: 700px;
+}

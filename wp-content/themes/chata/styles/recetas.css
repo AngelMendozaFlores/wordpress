@@ -1,0 +1,96 @@
+.padding{
+	padding: 10px 30px 10px 30px;
+}
+.navbar-default{
+	background-color: none !important;
+	border-color: none !important;
+}
+h1{
+    text-align: center;
+}
+.video{
+    width: 100%;
+
+}
+@media screen and (max-width: 1400px) {
+	.back{
+		background: rgba(255,  255,  255, 0.58);
+		border-radius: 5px;
+	}
+}
+
+.lista{
+	text-align: center;
+}
+
+.btn-full{
+	width: 100%;
+}
+
+.input-full{
+	width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+    .video{
+    	height: 170px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .video{
+   		height: 220px
+   	}
+}
+
+@media screen and (max-width: 768px) {
+    .video{
+    	height: 380px;
+    }
+}
+
+ @media screen and (max-width: 767px) {
+    .video{
+    	height: 220px;
+    }
+}
+
+
+
+ @media screen and (max-width: 768px) {
+    .tamales{
+    	width: 100%;
+    	text-align: center;
+    }
+}
+
+ @media screen and (max-width: 768px) {
+    .comidamx{
+    	width: 100%;
+    	text-align: center;
+    }
+}
+ @media screen and (max-width: 768px) {
+    .quesos{
+    	width: 100%;
+    	text-align: center;
+    }
+}
+ @media screen and (max-width: 768px) {
+    .carnesf{
+    	width: 100%;
+    	text-align: center;
+    }
+}
+ @media screen and (max-width: 768px) {
+    .abarrotes{
+    	width: 100%;
+    	text-align: center;
+    }
+}
+ @media screen and (max-width: 768px) {
+    .organico{
+    	width: 100%;
+    	text-align: center;
+    }
+}
